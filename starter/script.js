@@ -124,7 +124,7 @@
 //      const  age3 = calcAge2(yearss[yearss.length-1]);
 
 //Basic Arrays operations
-const friends = ['Micheal','Steven','Peter'];
+//const friends = ['Micheal','Steven','Peter'];
 //add new element
 // friends.push('Jay');
 //  console.log (friends);
@@ -201,56 +201,89 @@ const friends = ['Micheal','Steven','Peter'];
 //         console.log(bolaji.getSummary());
 
 
-const mark = {
-    firstName :'Mark',
-    lastName :'Miller',
-    weight : 78,
-    height : 1.69,
+// const mark = {
+//     firstName :'Mark',
+//     lastName :'Miller',
+//     weight : 78,
+//     height : 1.69,
 
-    calcBMI : function(){
-        this.bmi= this.weight / this.height ** 2 ;
-        return this.bmi;
-    }
+//     calcBMI : function(){
+//         this.bmi= this.weight / this.height ** 2 ;
+//         return this.bmi;
+//     }
 
-};
+// };
 
 
 
-const john ={
-    firstName :'John',
-    lastName :'Smith',
-    weight :92,
-    height :1.95,
+// const john ={
+//     firstName :'John',
+//     lastName :'Smith',
+//     weight :92,
+//     height :1.95,
 
-    calcBMI : function(){
-        this.bmi= this.weight / this.height ** 2 ;
-        return this.bmi;
-    }
+//     calcBMI : function(){
+//         this.bmi= this.weight / this.height ** 2 ;
+//         return this.bmi;
+//     }
 
-};
-mark.calcBMI();
-john.calcBMI();
-console.log(mark.bmi, john.bmi);
+// };
+// mark.calcBMI();
+// john.calcBMI();
+// console.log(mark.bmi, john.bmi);
 
-if (mark.bmi>john.bmi){
-    console.log(`${mark.firstName} ${mark.lastName}'s (${mark.bmi}) is higher than  John's (${john.bmi}) }`);
-}else {
-    console.log(`${john.firstName} ${john.lastName} (${john.bmi})is higher than  John's (${mark.bmi}) }`);
-};
+// if (mark.bmi>john.bmi){
+//     console.log(`${mark.firstName} ${mark.lastName}'s (${mark.bmi}) is higher than  John's (${john.bmi}) }`);
+// }else {
+//     console.log(`${john.firstName} ${john.lastName} (${john.bmi})is higher than  John's (${mark.bmi}) }`);
+// };
 
 // American@2020
 // Madrid_3070
 
 // Guinness_1759
 
-
+//Caterpiller_9898
 // Table@Chair_1000
 
 // SamsungComforter@9090
-// Ibadan@5050
+// Ibadan@5050 welcome@1030
 
 
 
 //LOOPS
-//fofr loops keeps running while condition is TRUE
-    for (let rep = 1; rep<=10)
+//for loops keeps running while condition is TRUE
+    // for (let rep = 1; rep<=10; rep++){
+    //     console.log(`lifting weight repetition ${rep}`)
+    // }
+
+
+// const markArray = 
+//        ['Mark',
+//         'Miller',
+//          2037- 1991,
+//          'Software Engineer',
+//         ['Michael','Peter','Steven']   
+// ];
+// console.log('-----ONLY STRING----');
+// for (let i=0;i<markArray.length ;i++){
+   
+//    if(typeof markArray[i] !== 'string') continue;
+
+//     console.log(markArray[i]);
+   
+   
+// }
+
+// console.log ('--BREAK WITH NUMBER-----');
+// for (let i=0;i<markArray.length ;i++){
+   
+//     if(typeof markArray[i] === 'number') break;
+ 
+//      console.log(markArray[i]);   
+//  }
+
+//  for(let i= markArray.length - 1; i>=0;i--){
+//      console.log(i, markArray[i]);
+//  }
+
